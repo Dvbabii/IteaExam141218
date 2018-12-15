@@ -1,5 +1,8 @@
 # IteaExam141218
 Google Search
+
+Test that will open google.com in web browsers, search for "Selenium" and verify results on first 2 pages.
+
 Content:
 - classes in "page" package are PageObjects;
 - "test" package contains main @Test method.
