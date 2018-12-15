@@ -8,6 +8,8 @@ import java.util.List;
 
 public class SearchTest extends BaseTest {
 
+    String searchTerm = "Selenium ";
+
     /**
      * Preconditions:
      * - Open browser
