@@ -1,0 +1,28 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Linkedin login tests">
+
+    <test name="SearchTestInChrome">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="test.SearchTest">
+                <methods>
+                    <include name="basicSearchTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="SearchTestInFirefox">
+        <parameter name="browserName" value="firefox"/>
+        <classes>
+            <class name="test.SearchTest">
+                <methods>
+                    <include name="basicSearchTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
